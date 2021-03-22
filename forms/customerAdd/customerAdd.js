@@ -34,4 +34,5 @@ btnAdd.onclick = function() {
             lblMessage3.value = "There was a problem with adding the new customer to the database."
     } else
         lblMessage3.value = "Error: " + req.status
+
 }
