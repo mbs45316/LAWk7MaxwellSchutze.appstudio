@@ -25,7 +25,6 @@
             "customerSelect",
             "customerSelect.json"
           ]
-
         },
         {
           "!type": "External",
@@ -34,6 +33,17 @@
             "customerDelete",
             "customerDelete.json"
           ]
+
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "customerAdd",
+            "customerAdd.json"
+          ]
+
+
         }
       ],
       "configxml": null,
@@ -56,8 +66,12 @@
       "expanded_pmp": null,
       "extraheaders": null,
 
+      "firstform": "customerAdd",
+
+
       "firstform": "customerDelete",
       "firstform": "customerSelect",
+
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
