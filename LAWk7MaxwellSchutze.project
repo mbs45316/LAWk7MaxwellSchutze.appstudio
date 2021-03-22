@@ -33,7 +33,6 @@
             "customerDelete",
             "customerDelete.json"
           ]
-
         },
         {
           "!type": "External",
@@ -42,8 +41,14 @@
             "customerAdd",
             "customerAdd.json"
           ]
-
-
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "customerUpdate",
+            "customerUpdate.json"
+          ]
         }
       ],
       "configxml": null,
@@ -65,6 +70,8 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
+
+      "firstform": "customerUpdate",
 
       "firstform": "customerAdd",
 

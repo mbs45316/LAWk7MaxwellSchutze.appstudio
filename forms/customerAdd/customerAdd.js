@@ -29,9 +29,10 @@ btnAdd.onclick = function() {
     req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + netID + "&query=" + query)
     if (req.status == 200) {
         if (req.responseText == 500)
-            lblMessage3.textContent = "You have successfully added the new customer!"
+            lblMessage3.value = "You have successfully added the new customer!"
         else
-            lblMessage3.textContent = "There was a problem with adding the new customer to the database."
+            lblMessage3.value = "There was a problem with adding the new customer to the database."
     } else
-        lblMessage3.textContent = "Error: " + req.status
+        lblMessage3.value = "Error: " + req.status
+
 }
