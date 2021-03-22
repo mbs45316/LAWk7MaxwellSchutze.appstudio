@@ -25,6 +25,7 @@
             "customerSelect",
             "customerSelect.json"
           ]
+
         },
         {
           "!type": "External",
@@ -54,7 +55,9 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
+
       "firstform": "customerDelete",
+      "firstform": "customerSelect",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
